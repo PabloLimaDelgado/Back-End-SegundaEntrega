@@ -1,0 +1,9 @@
+<h1>Cart: </h1>
+
+{{#each carts.products}}
+  <div class="product">
+    <h2>{{this.title}}</h2>
+    <p>{{this.description}}</p>
+    <!-- Otros campos del producto como precio, cantidad, etc. -->
+  </div>
+{{/each}}
